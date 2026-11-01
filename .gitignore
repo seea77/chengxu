@@ -1,0 +1,15 @@
+# 构建产物
+dist/
+build/
+__pycache__/
+*.pyc
+
+# 用户数据（含真实学生姓名/分数，绝不入库）
+date.json
+
+# 运行时缓存（WebView2）
+webview-data/
+
+# 开发临时文件 / 预览页
+_*.py
+预览_*.html
